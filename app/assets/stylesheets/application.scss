@@ -14,3 +14,20 @@
  *= require_tree .
  *= require_self
  */
+.pages{
+  .navbar{
+    background-color: red;
+  }
+}
+.pages{
+  .main{
+    margin-top: 50px;
+    color: green;
+  }
+}
+.products{
+  .main{
+    margin-top: 50px;
+    color: blue;
+  }
+}
