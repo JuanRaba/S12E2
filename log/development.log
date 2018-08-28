@@ -1,0 +1,37 @@
+Started GET "/pages/about" for 127.0.0.1 at 2018-08-28 11:16:08 -0300
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 207ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /home/juan/GitHub/S12E2/app/assets/config
+  /home/juan/GitHub/S12E2/app/assets/images
+  /home/juan/GitHub/S12E2/app/assets/javascripts
+  /home/juan/GitHub/S12E2/app/assets/stylesheets
+  /home/juan/.rvm/gems/ruby-2.4.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/juan/.rvm/gems/ruby-2.4.1/gems/actioncable-5.2.1/lib/assets/compiled
+  /home/juan/.rvm/gems/ruby-2.4.1/gems/activestorage-5.2.1/app/assets/javascripts
+  /home/juan/.rvm/gems/ruby-2.4.1/gems/actionview-5.2.1/lib/assets/compiled
+  /home/juan/.rvm/gems/ruby-2.4.1/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/juan/GitHub/S12E2/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:1
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__928591135_89782710'
+Started GET "/pages/about" for 127.0.0.1 at 2018-08-28 11:16:58 -0300
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3811ms (Views: 3801.7ms | ActiveRecord: 0.0ms)
+
+
